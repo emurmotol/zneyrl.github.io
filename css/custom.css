@@ -1,0 +1,233 @@
+.section h2 {
+    text-align: center;
+}
+
+.page-header nav {
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+
+.nav-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-link+.nav-link {
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 64em) {
+    .nav-link {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .nav-link {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+    }
+    /*Has duplicate below*/
+    .page-header nav {
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .nav-link {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    .nav-link+.nav-link {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    /*Has duplicate above*/
+    .page-header nav {
+        margin-top: -1rem;
+    }
+}
+
+.partial-content {
+    word-wrap: break-word;
+}
+
+.partial-content :first-child {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 64em) {
+    .partial-content {
+        max-width: 64rem;
+        padding: 2rem 6rem;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .partial-content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .partial-content {
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+.partial-content img {
+    max-width: 100%;
+}
+
+.partial-content h1, .partial-content h2, .partial-content h3, .partial-content h4, .partial-content h5, .partial-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #159957;
+}
+
+.partial-content p {
+    margin-bottom: 1em;
+}
+
+.partial-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #567482;
+    background-color: #f3f6fa;
+    border-radius: 0.3rem;
+}
+
+.partial-content pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa;
+    border: solid 1px #dce6f0;
+    border-radius: 0.3rem;
+}
+
+.partial-content pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #567482;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+.partial-content .highlight {
+    margin-bottom: 1rem;
+}
+
+.partial-content .highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+}
+
+.partial-content .highlight pre, .partial-content pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.partial-content pre code, .partial-content pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+}
+
+.partial-content pre code:before, .partial-content pre code:after, .partial-content pre tt:before, .partial-content pre tt:after {
+    content: normal;
+}
+
+.partial-content ul, .partial-content ol {
+    margin-top: 0;
+}
+
+.partial-content blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0;
+}
+
+.partial-content blockquote> :first-child {
+    margin-top: 0;
+}
+
+.partial-content blockquote> :last-child {
+    margin-bottom: 0;
+}
+
+.partial-content table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch;
+}
+
+.partial-content table th {
+    font-weight: bold;
+}
+
+.partial-content table th, .partial-content table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec;
+}
+
+.partial-content dl {
+    padding: 0;
+}
+
+.partial-content dl dt {
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.partial-content dl dd {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.partial-content hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #eff0f1;
+    border: 0;
+}
