@@ -1,5 +1,17 @@
-.section h2 {
+.section h2, .section h3, .section p {
     text-align: center;
+}
+
+.section p {
+    padding-left: 25%;
+    width: 75%;
+}
+
+@media screen and (max-width: 42em) {
+    .section p {
+        padding-left: 0;
+        width: 100%;
+    }
 }
 
 .page-header nav {
