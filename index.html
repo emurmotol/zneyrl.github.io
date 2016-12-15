@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/cayman.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -30,31 +30,44 @@
         <h2 class="project-tagline">WELCOME TO MY WEBSITE</h2>
     </div>
 
-    <section id="about" class="partial-content section">
+    <section id="about" class="partial-content">
         <h2>About Me</h2>
         <h3>WHO I AM</h3>
         <p>I’m an IT student from the Philippines, passionate about code, design and technology. I like arts, science, traveling and films.</p>
     </section>
 
-    <section id="skills" class="partial-content section">
+    <section id="skills" class="partial-content">
         <h2>Skills</h2>
     </section>
 
-    <section id="portfolio" class="partial-content section">
+    <section id="portfolio" class="partial-content">
         <h2>Portfolio</h2>
     </section>
 
-    <section id="achievements" class="partial-content section">
+    <section id="achievements" class="partial-content">
         <h2>Achievements</h2>
     </section>
 
-    <section id="blog" class="partial-content section">
+    <section id="blog" class="partial-content">
         <h2>Blog</h2>
     </section>
 
-    <section id="contact" class="partial-content section">
+    <section id="contact" class="partial-content">
         <h2>Contact</h2>
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $(".nav-link").click(function() {
+                var to_id = $(this).attr("href");
+                $("html, body").animate({
+                    scrollTop: $(to_id).offset().top
+                }, "fast");
+            });
+        });
+    </script>
 
 </body>
 
