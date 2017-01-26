@@ -2,7 +2,7 @@
 
 Cayman is a clean, responsive theme for [GitHub Pages](https://pages.github.com). This theme is available as an option if you use the [Automatic Page Generator](https://help.github.com/articles/creating-pages-with-the-automatic-generator/) or you can copy the template and styles to use on your own.
 
-<script src="https://gist.github.com/nisrulz/11c0d63428b108f10c83.js"></script>
+<script src="https://gist.github.com/zneyrl/0768cde6d5a7c72a252843f9702f2bca.js"></script>
 
 You can preview the theme at <http://jasonlong.github.io/cayman-theme> or with real content at <http://jasonlong.github.io/geo_pattern>.
 
